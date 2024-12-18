@@ -46,5 +46,5 @@ The project is divided into multiple Swift files for modularity:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/safeplace.git
+   git clone https://github.com/MariaritaPatrelli/SafePlace.git
 
