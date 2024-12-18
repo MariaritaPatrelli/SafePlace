@@ -10,25 +10,25 @@ import MapKit
 
 struct ContentView: View {
     @State private var showModal = false
+    @State var navigationTag: String?
     
-
+    
     var body: some View {
         ZStack {
             // PoliceStationView come sfondo
             PoliceStationView()
                 .edgesIgnoringSafeArea(.all)
-
+            
             // Modale in primo piano
-           
+            
         }
-       
     }
+}
+
+#Preview {
+    ContentView()
 }
 
 
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+
